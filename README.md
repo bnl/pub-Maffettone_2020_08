@@ -42,7 +42,7 @@ XCA is under active development, and the most up-to-date version may not be comp
 ```
 conda create -n xca -c conda-forge cctbx-base jupyter jupyterlab pandas python=3.7
 conda activate xca
-git clone https://github.com/maffettone/xca
+git clone -b pub https://github.com/maffettone/xca
 cd xca
 python -m pip install .
 cd ../
